@@ -1,8 +1,8 @@
-# Microservice d'Inventaire - Plateforme SaaS Salons de Beauté
+# Microservice d'Inventaire - Plateforme SaaS Salons de Beauté et Restauration by Synesia
 
 Ce microservice gère l'inventaire pour une plateforme SaaS dédiée aux salons de beauté. Il est développé avec ASP.NET Core 8, utilise PostgreSQL comme base de données et suit une architecture Clean Code.
 
-## 🏗️ Architecture
+## Architecture
 
 Le projet suit une architecture en couches (Clean Architecture) :
 
@@ -12,7 +12,7 @@ Le projet suit une architecture en couches (Clean Architecture) :
 - **Inventory.Infrastructure** : Couche infrastructure (implémentations, Entity Framework, PostgreSQL)
 - **Inventory.Tests** : Tests unitaires et d'intégration
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 ### Gestion des Produits
 - CRUD complet des produits
@@ -38,7 +38,7 @@ Le projet suit une architecture en couches (Clean Architecture) :
 - Données de saisonnalité
 - Scores de performance IA
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Framework** : ASP.NET Core 8
 - **Base de données** : PostgreSQL
@@ -48,13 +48,13 @@ Le projet suit une architecture en couches (Clean Architecture) :
 - **Architecture** : Clean Architecture
 - **Conteneurisation** : Docker (optionnel)
 
-## 📋 Prérequis
+## Prérequis
 
 - .NET 8 SDK
 - PostgreSQL 12+
 - Visual Studio 2022 ou VS Code
 
-## 🔧 Installation et Configuration
+## Installation et Configuration
 
 ### 1. Cloner le projet
 ```bash
@@ -90,7 +90,7 @@ dotnet run
 
 L'API sera accessible sur `http://localhost:5000` et la documentation Swagger sur `http://localhost:5000`
 
-## 📚 Endpoints API
+## Endpoints API
 
 ### Produits
 - `GET /api/products` - Récupérer tous les produits
@@ -125,17 +125,17 @@ L'API sera accessible sur `http://localhost:5000` et la documentation Swagger su
 - `GET /api/analytics/seasonality` - Données de saisonnalité
 - `GET /api/analytics/performancescores` - Scores de performance IA
 
-## 🔍 Santé de l'API
+## Santé de l'API
 - `GET /health` - Endpoint de santé du service
 
-## 🧪 Tests
+## Tests
 
 Pour exécuter les tests :
 ```bash
 dotnet test
 ```
 
-## 📦 Déploiement
+## Déploiement
 
 ### Avec Docker
 ```bash
@@ -147,7 +147,7 @@ docker run -p 5000:5000 inventory-microservice
 - `ConnectionStrings__DefaultConnection` : Chaîne de connexion PostgreSQL
 - `ASPNETCORE_ENVIRONMENT` : Environnement (Development, Production)
 
-## 🤝 Contribution
+## Contribution
 
 1. Fork le projet
 2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
